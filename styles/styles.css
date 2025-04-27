@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* Nav Styles  */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 50px auto 80px;
+}
+.nav-title {
+  font-size: 1.5rem;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar > ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-right: 34px;
+}
+.navbar > ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* Hero section  */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+}
+.hero-description {
+  width: 582px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+.hero-description h3 {
+  font-size: 52px;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.hero-description p {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.primary-btn {
+  color: rgb(255, 255, 255);
+  background: rgb(224, 44, 109);
+  border-radius: 41px;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  width: 196px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.primary-btn span {
+    padding-right: 12px;
+}
+
+
+
+
+.hero-img {
+  background-image: url(/images/Circle\ design.svg);
+  background-position: right;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 475px;
+  height: 475px;
+}
+.img-1 {
+  width: 440px;
+}
+.hero-img > img {
+  position: center;
+  width: 100%;
+}
