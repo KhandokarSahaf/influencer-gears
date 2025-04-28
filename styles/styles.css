@@ -81,7 +81,7 @@
 
 
 .hero-img {
-  background-image: url(./images/Circle\ design.svg);
+  background-image: url(../images/Circle\ design.svg);
   background-position: right;
   position: relative;
   background-repeat: no-repeat;
@@ -94,4 +94,10 @@
 .hero-img > img {
   position: center;
   width: 100%;
+}
+
+/* Responsiveness for small device */
+
+@media screen max-width:(768px){
+  
 }
